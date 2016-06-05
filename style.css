@@ -7,4 +7,5 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-size: 1800px 2000px;
+    background-radius: 5px 20px 5px;
 }
