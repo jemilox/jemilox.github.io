@@ -1,18 +1,3 @@
-body { 
-    font-family: 'Lato', sans-serif;
-    background-image: url('green.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: 1800px 2000px;
-    background-radius: 5px 20px 5px;
-}
-
-div.background {
-  box-sizing: border box;
-  width: 400px;
-  height: 400px;
-}
-div.paragraph {
-    color: white;
+h1 {
+    Color #6D4C41
 }
