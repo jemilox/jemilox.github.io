@@ -23,7 +23,6 @@ body {
     width:32%;margin:1%; height:100px;
     float: right;
 position: relative;
-left: -50%; /* or right 50% */
 text-align: left;
     width:600px;
     height: 600px;
