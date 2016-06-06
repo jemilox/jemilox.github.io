@@ -20,9 +20,14 @@ body {
 }
 
 .boxes {
-    display: inline;
+   display: inline;
     display: block;
-   
+    width:600px;
+    height: 1000px;
+    margin:30px;
+    text-align: left;
+    padding: 50px;
+    background:rgba(255,255,255,0.5
 }
 
 .box {
