@@ -42,3 +42,12 @@ body {
 .rawr {
    
 }
+
+nav ul {
+    display: inline;
+}
+nav li {
+    display: inline;
+}
+}
+}
