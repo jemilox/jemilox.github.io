@@ -23,7 +23,8 @@ body {
 }
 
 .boxes {
-    display: in-line block;
+    display: inline;
+    display: block;
     width:600px;
     height: 1000px;
     margin-right:30px;
