@@ -20,7 +20,7 @@ body {
 }
 
 .boxes {
-   {width:30%;margin:1%; height:100px;}
+   width:30%;margin:1%; height:100px;
     float: left;
     text-align: left;
     width:600px;
