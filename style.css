@@ -45,3 +45,7 @@ body {
 
 
 }
+div {
+    width:30%;margin:1%;border:1px solid blue; float:left; height:100px;
+    
+}
