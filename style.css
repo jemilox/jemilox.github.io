@@ -20,7 +20,7 @@ body {
 }
 
 .boxes {
-    width:32%;margin:1%; height:100px;
+    width:30%;margin:1%; height:100px;
     display: block;
     display: inline block
     float: left;
