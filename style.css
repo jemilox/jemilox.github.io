@@ -24,7 +24,8 @@ body {
 
 .boxes {
     display: in-line block;
-    width:200px;
+    width:600px;
+    height: 1000px;
     margin-right:30px;
     text-align:right;
     padding: 50px;
