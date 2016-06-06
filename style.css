@@ -45,6 +45,13 @@ body {
 
 nav ul {
     display: inline;
+     display: block;
+    width:600px;
+    height: 1000px;
+    margin:30px;
+    text-align: left;
+    padding: 50px;
+    background:rgba(255,255,255,0.8);
 }
 nav li {
     display: inline;
@@ -56,5 +63,5 @@ nav li {
     padding: 50px;
     background:rgba(255,255,255,0.8);
 }
-}
-}
+
+
