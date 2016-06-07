@@ -22,7 +22,7 @@ body {
 .boxes {
     width:30%;margin:1%; float:left; height:100px;
     height: 600px;
-    color: #CD5C5C;
+    color: #331a00;
     background:rgba(255,255,255,0.8);
 }
 .footer {
@@ -30,6 +30,8 @@ body {
     font-size: .5em;
 }
 
-
+DT {
+    font size: .75em;
+}
 
 
