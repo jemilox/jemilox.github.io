@@ -33,6 +33,7 @@ p {
 }
 
 .allboxes {
+    display: inline;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
