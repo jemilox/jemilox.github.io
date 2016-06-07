@@ -32,11 +32,5 @@ p {
     margin-left: 100px;
 }
 
-.allboxes {
-    display: inline;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
+
 
