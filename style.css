@@ -22,7 +22,7 @@ body {
 .boxes {
     width:30%;margin:1%; float:left; height:100px;
     height: 600px;
-    color: #331a00;
+    color: #663300;
     background:rgba(255,255,255,0.8);
 }
 .footer {
