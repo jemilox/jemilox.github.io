@@ -21,12 +21,10 @@ body {
 
 .boxes {
    width:30%;margin:1%; height:100px;
-    float: left;
     text-align: left;
     width:600px;
     height: 600px;
     margin:30px;
-    text-align: left;
     color: #CD5C5C;
     padding: 50px;
     background:rgba(255,255,255,0.8);
