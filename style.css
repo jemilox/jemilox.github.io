@@ -37,7 +37,9 @@ p {
 }
 
 .allboxes {
-    margin: 100px;   
-}
+    margin: 100px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
