@@ -22,13 +22,11 @@ body {
 .boxes {
     width:30%;margin:1%; float:left; height:100px;
     height: 600px;
-    padding: 50px;
     color: #CD5C5C;
     background:rgba(255,255,255,0.8);
 }
 .footer {
     color: white;
-    font-size: 2em;
 }
 
 
