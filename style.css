@@ -24,6 +24,7 @@ body {
     height: 600px;
     color: #663300;
     background:rgba(255,255,255,0.8);
+    font-size: 1em;
 }
 .footer {
     color: white;
