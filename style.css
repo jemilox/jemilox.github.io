@@ -6,7 +6,7 @@ h1 {
 
 h2 {
     color: white;
-    font size: 1.5em;
+    font size: 3em;
     text-align: center;
 }
 
@@ -27,11 +27,11 @@ body {
     height: 600px;
     color: #663300;
     background:rgba(255,255,255,0.8);
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .footer {
     color: white;
-    font-size: .5em;
+    font-size: 1.5em;
 }
 
 DT {
