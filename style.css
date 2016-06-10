@@ -37,8 +37,15 @@ body {
     font-size: 1.5em;
     width: 500px;
     text-align: center;
-    position: absolute
-    padding: 50px;
+    .center {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -25px; 
+}​
 }
 
 DT {
