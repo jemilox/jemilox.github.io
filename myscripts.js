@@ -1,4 +1,3 @@
-function popup() {
 alert("Hello World");
-}
-document.write(meow);
+
+document.write("meow");
