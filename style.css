@@ -37,7 +37,7 @@ body {
 }
 
 .boxes:hover, boxes:active {
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px white;
 }
 .footer {
     color: white;
