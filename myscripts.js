@@ -1,6 +1,6 @@
 
 
 draw = function() {
-  fill(0, 0, 0)
+  fill(20, 20, 20)
   ellipse(mousex, 1000, 50, 50)
 }
