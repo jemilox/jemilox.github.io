@@ -1,0 +1,53 @@
+.navbar {
+  background-color: rgb(200,200,169);
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+body {
+  
+
+}
+
+.btn {
+  background-color: rgb(131,175,155);
+  color: rgb(255,255,255);
+}
+.header {
+  background-color: rgb(252,157,154)
+}
+
+.body1 {
+  background-color: rgb(249,205,173)
+}
+
+.features .glyphicon {
+  font-size: 32px;
+  color: rgb(200,200,169);
+}
+.topbuffer {
+  margin-top: 2%;
+}
+.glyphicon-envelope:before {
+  margin-right: 10px;
+}
+.glyphicon-earphone:before {
+  margin-right: 10px;
+}
+.glyphicon-home:before {
+  margin-right: 10px;
+}
+.footer {
+  background-color: rgb(254,067,101);
+  color: rgb(255,255,255);
+}
+
+a[href^="mailto"] {
+  color: rgb(249,205,176);
+}
