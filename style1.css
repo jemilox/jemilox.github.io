@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(200,200,169);
+ background-color: rgb(200,200,169);
 }
 
 .navbar-default .navbar-brand {
@@ -10,18 +10,19 @@
     color: #ffffff;
 }
 
-body {
-  
+.navbar-default .navbar-toggle .icon-bar {
+  color: #ffffff !important;
+}
 
+.icon-bar {
+  color: #ffffff !important;
 }
 
 .btn {
   background-color: rgb(131,175,155);
   color: rgb(255,255,255);
 }
-.header {
-  background-color: rgb(252,157,154)
-}
+
 
 .body1 {
   background-color: rgb(249,205,173)
