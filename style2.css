@@ -4,12 +4,36 @@
 }
 
 main {
-  background: #FFA17F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #FFA17F , #00223E); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FFA17F , #00223E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 90%;
+  background: #e96443; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #e96443 , #904e95); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #e96443 , #904e95); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 90%;
+
 }
 
 html, body {
   height: 100%;
+}
+
+header {
+  height: 10%;
+  font-family: 'Playball', cursive;
+  font-size:12em;
+
+   color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   margin-left: 5%;
+}
+
+.sideMenu {
+  height: 15%;
+  width: 40%;
+  background: white;
+  border-radius: 25px 0 0 25px;
+  text-align: left;
+  clear: both;
+  float: right;
+  margin-top: 5%;
 }
