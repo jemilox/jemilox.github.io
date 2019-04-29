@@ -1,80 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Lisa Cook-Portfolio</title>
-	<meta charset="UTF-8">
-
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="style1.css" rel="stylesheet">
-</head>
-<body>
-	<div class="navbar navbar-default navbar-static-top">
-		<div class="container">
-			<div class="navbar-header">
-					<a href="/" class="navbar-brand">Lisa Cook</a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span></button>
-				</div>
-					<div class="dropdown">
-					<ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-						<li><a class="dropdown-toggle"data-toggle="dropdown" href="#" >About<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Mew</a>
-								<li><a href="#">Mew</a>
-								<li><a href="#">Mew</a></ul></div>
-						<li><a>Mew</a></li>
-						<li><a>Mew</a></li></ul>
-
-		</div>
-	</div>
-	<div class="container body1 well-lg">
-		<div class="row">
-			<div class="col-sm-6 col-sm-offset-1">
-				<h2>Portfolio</h2>
-				<p class='lead'>I am a web developer with high teachability and strong work ethic who would like to
-				immerse myself in a career of webcraft and coding!</p>
-				<button type="button" class="btn btn-lg">My Portfolio</button>
-				<button type="button" class="btn btn-lg">Contact Me</button>
-			</div>
-			<div class="col-sm-5 hidden-xs">
-				<img src="teaching picture.jpg" width=90%>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row text-center features topbuffer">
-			<div class="col-sm-4 col-xs-12">
-				<i class="glyphicon glyphicon-heart-empty"></i>
-				<h3><a href="webpage1/index.html">My First Website</a></h3>
-				<p>Website for Prime Academy application.</p>
-			</div>
-			<div class="col-sm-4 col-xs-6">
-				<i class="glyphicon glyphicon-apple"></i>
-				<h3><a href="fish.html">Fishes!</a></h3>
-				<p>After visiting The Monterey Bay Aquarium this last weekend, I couldn't stop thinking about how to code the sardines that
-				continuously followed one another around the tank!!  Still in progress...</p>
-			</div>
-			<div class="col-sm-4 col-xs-6">
-				<i class="glyphicon glyphicon-education"></i>
-				<h3>Education</h3>
-				<p>I currently have a bachelors degree and master's degree.</p>
-			</div>
-
-		</div>
-	</div>
-	<div class="footer">
-		<div class="container-fluid">
-			<h4>Contact Me:</h4>
-			<ul class="list-unstyled">
-				<li>Address
-				<li><i class="glyphicon glyphicon-earphone"></i>Phone: (408)694-8490
-				<li><a href="mailto:jemilox@gmail.com"><i class="glyphicon glyphicon-envelope"></i>jemilox@gmail.com
-		</div>
-	</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="jquery-3.0.0.js"></script>
-<script src="js/bootstrap.js"></script>
-</body>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Monoton" rel="stylesheet">    <script src="lodash.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div>
+      <p id="titleText">
+        Bubble Bummer
+      </p>
+    </div>
+    <div class="main">
+      <div class="stats">
+        <button onClick="startDraw()">
+          START
+        </button>
+        <p id="score">
+          0
+        </p>
+      </div>
+      <div id="canvas-holder">
+          <!-- The canvas is diplayed here! -->
+      </div>
+    </div>
+  </body>
 </html>
