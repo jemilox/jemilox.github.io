@@ -1,7 +1,7 @@
 'use strict';
 
-const CANVAS_WIDTH = 1920 * 0.7;
-const CANVAS_HEIGHT = 1080 * 0.7;
+const CANVAS_WIDTH = window.innerWidth * 0.7;
+const CANVAS_HEIGHT = window.innerHeight * 0.7;
 
 const PLAYER_START_X = CANVAS_WIDTH / 2;
 const PLAYER_START_Y = CANVAS_HEIGHT - 50;
@@ -16,7 +16,7 @@ var playerX = PLAYER_START_X;
 var playerY = PLAYER_START_Y;
 var bubbleArray = [];
 var maxBubbles = 15;
-var playerSize = 80;
+var playerSize = byHeight(80);
 var powerUp = {};
 var score = 0;
 let highScores = [];
@@ -64,7 +64,7 @@ function draw() {
 var createBubble = function(){
   if(bubbleArray.length < maxBubbles){
     const colorRandom = Math.floor(Math.random() * 3) + 1;
-    var bubble = [random(-100, CANVAS_WIDTH), -100, random(10, 100), random(5, 10), colorRandom];
+    var bubble = [random(-100, CANVAS_WIDTH), -100, random(byHeight(20), byHeight(200)), random(5, 10), colorRandom];
     bubbleArray.push(bubble);
   }
 };
@@ -74,11 +74,11 @@ var createPowerUp = function(){
     powerUp = {
       x: random(50, CANVAS_WIDTH - 50),
       y: random(400, CANVAS_HEIGHT - 50),
-      size: 80,
+      size: byHeight(80),
     };
   }
   collisionCheck(powerUp.x, powerUp.y, powerUp.size, false);
-  star(powerUp.x, powerUp.y, powerUp.size, 30, 4);
+  star(powerUp.x, powerUp.y, powerUp.size, byHeight(30), 4);
 };
 
 var showBubbles = function(bubblex, bubbley, bubbleSize, colorRandom){
