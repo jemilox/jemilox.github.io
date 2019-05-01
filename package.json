@@ -1,0 +1,27 @@
+{
+  "name": "jemilox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jslint": "^0.12.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemilox/jemilox.github.io.git"
+  },
+  "author": "jemilox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemilox/jemilox.github.io/issues"
+  },
+  "homepage": "https://github.com/jemilox/jemilox.github.io#readme"
+}
