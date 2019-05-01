@@ -20,11 +20,12 @@ var playerSize = byHeight(80);
 var powerUp = {};
 var score = 0;
 let highScores = [];
+callFetch();
 
 function draw() {
   if (keyIsDown(LEFT_ARROW)) {
     if (!(playerX < 0)) {
-      playerX-=5;
+      playerX -=5;
     }
   }
   if (keyIsDown(RIGHT_ARROW)) {
