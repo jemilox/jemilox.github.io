@@ -9,6 +9,6 @@ var callFetch = function () {
     console.log(JSON.stringify(myJson));
   })
   .catch(function(error){
-    console.log('error', erorr);
+    console.log('error', error);
   });
 }
