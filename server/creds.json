@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lisa-s-games",
+  "private_key_id": "68d4501bc12e2ad7507a3ea4b59a208ff4023107",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCm/TvTl74FtBEw\nR7kemLm33HvTYWHvXdw1q+ch7WVEGKFIogfwGErJb8HUt4/3O8QI/Qg8l4v7KxdW\n9RgnX1JOGvtjZSOS++HKQkCJOJeC2wxXtGgBVfXeTeM7VLXNlA8i0OBKGxVEaJOY\nvHMkj/mUN9fPKW70hTHPpKTr/Gm5DmuV50NBSzd+uekuGD1ss+17Q1z+CMQxtDZH\nDAldPZVJXHwhLl7085ZZJY1JBrPKDvjRd+80u/kL+0daBeOsA4dxWRQNDQcscdlP\nu25WXJmKBQmpHvGWCGCFG7BeucPmoq4oJAcxxxSFnxtwTeVos0XZC37x5ixc/qjA\nlabb6XptAgMBAAECggEAGwl3TUwNTTkZa1rBg02xDC7bsZ7bz3i/9cSueJTKR5tB\nSdRKOrqEKVc55+oMmjgIBniJg935oSIZ9k9aqM1LMzA1MaOnfd3gcfIGJvGNvnce\n6XhhOo4jb+nmd63AfdeSF83/8p+t8tSHyTwB3JKfEztzaqxHtbl3FiqPNVI5/+ct\n00ZiKBDxsu2tEMI4BAGUMQ4Ox9AKKm4G9V/Dz6VIGuFX+Fa72giRybYEW8zFJ0Eb\nPIeVQx4GlSiAsfwTtRZAn8K2Qw8AEr8drgC22Z7IPTTlatm7eQajYOhmGLnV2rTF\nZFjqGNGWBBnpx0GgEdd9bYuO1yHwEY6JHzCji61pAQKBgQDUtR9zORvEiqHFnw1n\nNxNgXJC0WLOUl+QeCblRIV69x/+Z+MTX5nF1snHHzM4NH3kLtGgNHfWFwBQV/CBv\nhQqFGC5Q/o979uDLAg3vwdB8xKPu/HB2LtwzBg1JOmOBw/7pIU+jWi/ZbY4qj+gL\nFXpPoBvwByn6kaoNd4E2tRpOQQKBgQDI+gLcyKKhvJh9JuJJW2Tb5lud0QFGzHLQ\nhxUrhYx7Y4IdAjQ0aCyU1bRGwZqzKbkQ2k9dCrSOYq0HYD30eVbqB3HJvrlM7BlC\nrYtoeQ16mNDEmXMZsuzckJnmFuaEa5TVVTtAjWlGZHmBaShrn8jdyDIcwrcyEmQO\nDxxuHg15LQKBgDOsYJyMRhukFhK9RfNKJPHm6tx1JAM4Nxm5AQUdlzeBi62rCp7s\ng6m1FQEV1wTHHY/jXte47Hl2pSqGGpcc+eZFbpMMlGzoF8oZkKsrKWv2FWEsgGGl\nlqbqlHWyspPGunmGNyOW+ELY442hchynNhR77+2Kv/74PhiRbJmOu3pBAoGAUIwy\n/X3EAIJvsykUZEYm5CMs8NFFa7ShB4Y8K9c4eHNnQG0TszVVOMl1mS4a7Fd6fpCg\nYi/aMX7Gzj/6VLMU7HLTXgH8jiHJ9flL+DEb/9ijQ0gk41XcrIGfzKG8/bGIUv/3\n4WVLnhTCxeT5eDjv7kNAIlq/xWethhz0TgXpbHkCgYAa2hLVoDT5cOfMg96Ka+ne\nBv37JaCoPnIzfOAccgTHVEQNdMLprRe7fPXe3ZHgAIm83sUaBC0XI8G3rX28fKb8\noR6h9oJ+y4XD61E5H9Hv2kA4gGmCTzp5B0vJPA25ICHqJ6W/3kdPYCV1X6FImbun\nt85HGbry3rJNIgN4BrBIZg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lisa-s-games@appspot.gserviceaccount.com",
+  "client_id": "117013668255874015421",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lisa-s-games%40appspot.gserviceaccount.com"
+}
