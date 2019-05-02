@@ -19,8 +19,6 @@ var maxBubbles = 15;
 var playerSize = byHeight(80);
 var powerUp = {};
 var score = 0;
-let highScores = [];
-callFetch();
 
 function draw() {
   if (keyIsDown(LEFT_ARROW)) {
@@ -105,6 +103,7 @@ var collisionCheck = function(bubblex, bubbley, bubblez, stop){
     if(stop) {
       bubbleArray = [];
       noLoop();
+      checkForHighScore(score);
       
     } else {
       score++;

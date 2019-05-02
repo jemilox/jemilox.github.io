@@ -5,6 +5,8 @@ var admin = require("firebase-admin");
 
 var serviceAccount = require("../meow.json");
 
+// BACKEND API
+
 var app = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://lisa-s-games.firebaseio.com"
@@ -32,7 +34,7 @@ router.get('/bubbleLeaders', async function(req, res, next) {
   });
   console.log('scores', scores);
 
-  res.send([{name: 'meow', score: '10'}]);
+  res.send(scores);
 });
 
 module.exports = router;
