@@ -1,0 +1,47 @@
+#titleText {
+  color: yellow;
+  justify-content: center;
+  font-family: 'Monoton';
+  font-size: 60px;
+  line-height: .1;
+  text-align: center;
+}
+
+#score {
+  color: yellow;
+  font-size: 56px;
+  font-family: 'Major Mono Display';
+  border-style: double;
+  border-radius: 25%;
+  border-color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
