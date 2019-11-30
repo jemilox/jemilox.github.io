@@ -1,0 +1,27 @@
+{
+  "name": "jemilox.github.io",
+  "version": "1.0.0",
+  "description": "meow games",
+  "main": "server/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jslint": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemilox/jemilox.github.io.git"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "jemilox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemilox/jemilox.github.io/issues"
+  },
+  "homepage": "https://github.com/jemilox/jemilox.github.io#readme"
+}
